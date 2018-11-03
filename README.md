@@ -1,5 +1,5 @@
 # Capstone-Group18
-ASU SER Major Capstone Project
+ASU SER Major Capstone Project <br>
 <b>17</b> – Virtual Reality Application for Pediatric Pain Management
 
 <h2>Purpose</h2>
