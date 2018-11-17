@@ -1,10 +1,10 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerFollow : MonoBehaviour {
 
-    public Transform PlayerTransform;
+    public Transform Player;
 
     private Vector3 _cameraOffset;
 
@@ -15,17 +15,17 @@ public class PlayerFollow : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        _cameraOffset = transform.position - PlayerTransform.position;	
+        _cameraOffset = transform.position - Player.position;	
 	}
 	
 	// LateUpdate is called after Update
 	void Update () {
-        Vector3 newPos = PlayerTransform.position + _cameraOffset;
+        Vector3 newPos = Player.position + _cameraOffset;
 
         transform.position = Vector3.Slerp(transform.position, newPos, SmoothFactor);
 
         if (LookAtPlayer)
-            transform.LookAt(PlayerTransform);
+            transform.LookAt(Player);
 
 	}
 }
