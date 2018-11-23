@@ -3,35 +3,29 @@
  using System.Collections.Generic;
  
  public class moveRandomly : MonoBehaviour {
-     private float timeToChangeDirection;
-  Rigidbody2D rigidbody;
-     // Use this for initialization
-     public void Start () {
-         ChangeDirection();
-          rigidbody = GetComponent<Rigidbody2D>();
+     private float timeDirection;
+     Rigidbody2D rigBody;
+    public void Start () {
+         changeRoute();
+          rigBody = GetComponent<Rigidbody2D>();
         
      }
-     
-     // Update is called once per frame
-     public void Update () {
-         timeToChangeDirection -= Time.deltaTime;
+      public void Update () {
+         timeDirection -= Time.deltaTime;
  
-         if (timeToChangeDirection <= 0) {
-             ChangeDirection();
+         if (timeDirection <= 0) {
+             changeRoute();
          }
  
          rigidbody.velocity = transform.up * 2;
      }
- 
- 
- 
-     private void ChangeDirection() {
+    private void changeRoute() {
          float angle = Random.Range(0f, 360f);
          Quaternion quat = Quaternion.AngleAxis(angle, Vector3.forward);
          Vector3 newUp = quat * Vector3.up;
          newUp.z = 0;
          newUp.Normalize();
          transform.up = newUp;
-         timeToChangeDirection = 1.5f;
+         timeDirection = 1.5f;
      }
  }
