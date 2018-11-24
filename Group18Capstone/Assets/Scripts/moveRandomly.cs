@@ -5,7 +5,7 @@ using UnityEngine.AI;
  public class moveRandomly : MonoBehaviour
 {
     public float timer;
-    public int newtarget;
+    public int changeDirection;
     public float speed;
     public NavMeshAgent nav;
     public Vector3 Target;
@@ -18,7 +18,7 @@ using UnityEngine.AI;
  void Update () 
  {
      timer += Time.deltaTime;
-     if (timer >= newtarget)
+     if (timer >= changeDirection)
      {
          newTarget();
          timer = 0;
