@@ -5333,6 +5333,27 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1403402443 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 139118, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 1403402442}
+--- !u!114 &1403402444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1403402443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f1efac7ce58e0945ac9286e40e65da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 0
+  changeDirection: 0
+  speed: 0
+  nav: {fileID: 0}
+  Target: {x: 0, y: 0, z: 0}
 --- !u!1001 &1407213535
 Prefab:
   m_ObjectHideFlags: 0
@@ -6025,6 +6046,22 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 172532, guid: f00aea34548d061498fa07768c3aab0b,
     type: 2}
   m_PrefabInternal: {fileID: 1558214413}
+--- !u!114 &1605153295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1605153294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f1efac7ce58e0945ac9286e40e65da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 0
+  changeDirection: 0
+  speed: 0
+  nav: {fileID: 0}
+  Target: {x: 0, y: 0, z: 0}
 --- !u!143 &1605153296
 CharacterController:
   m_ObjectHideFlags: 0
@@ -6222,6 +6259,27 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1723068641 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 139118, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 1723068640}
+--- !u!114 &1723068642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1723068641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f1efac7ce58e0945ac9286e40e65da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 0
+  changeDirection: 0
+  speed: 0
+  nav: {fileID: 0}
+  Target: {x: 0, y: 0, z: 0}
 --- !u!1 &1729088246
 GameObject:
   m_ObjectHideFlags: 0
@@ -7635,6 +7693,27 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &2027099232 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 139118, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 2027099231}
+--- !u!114 &2027099233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2027099232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f1efac7ce58e0945ac9286e40e65da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 0
+  changeDirection: 0
+  speed: 0
+  nav: {fileID: 0}
+  Target: {x: 0, y: 0, z: 0}
 --- !u!4 &2037884333 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4494775606006702, guid: da4ad2310c6a3a44e8c6b74c731ffbc7,
@@ -7923,6 +8002,27 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &2096247594 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 139118, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 2096247593}
+--- !u!114 &2096247595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2096247594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f1efac7ce58e0945ac9286e40e65da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 0
+  changeDirection: 0
+  speed: 0
+  nav: {fileID: 0}
+  Target: {x: 0, y: 0, z: 0}
 --- !u!1001 &2105580686
 Prefab:
   m_ObjectHideFlags: 0
