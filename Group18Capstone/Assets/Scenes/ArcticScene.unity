@@ -7836,8 +7836,8 @@ GameObject:
   - component: {fileID: 313267870}
   - component: {fileID: 2076582195}
   - component: {fileID: 2076582193}
-  - component: {fileID: 2076582194}
   - component: {fileID: 2076582192}
+  - component: {fileID: 2076582196}
   m_Layer: 0
   m_Name: Deer (5)
   m_TagString: Untagged
@@ -7845,22 +7845,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
   m_IsActive: 1
---- !u!114 &2076582192
-MonoBehaviour:
+--- !u!54 &2076582192
+Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2076582191}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f1efac7ce58e0945ac9286e40e65da7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 0
-  changeDirection: 0
-  speed: 2
-  nav: {fileID: 0}
-  Target: {x: 0, y: 0, z: 0}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!23 &2076582193
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7896,27 +7895,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!195 &2076582194
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2076582191}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 0
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!95 &2076582195
 Animator:
   serializedVersion: 3
@@ -7930,12 +7908,25 @@ Animator:
   m_Controller: {fileID: 0}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2076582196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2076582191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60eed7d8a4c4d7045a5010866c746fe4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocity: 0
+  destination: []
 --- !u!1001 &2096247593
 Prefab:
   m_ObjectHideFlags: 0
