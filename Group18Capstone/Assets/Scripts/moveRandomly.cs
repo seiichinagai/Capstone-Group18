@@ -22,7 +22,7 @@ using UnityEngine.AI;
      {
          getTarget();
          timer = 0;
-         agent.velocity = velocity;
+         agent.speed = velocity;
      }
  }
  void getTarget()
