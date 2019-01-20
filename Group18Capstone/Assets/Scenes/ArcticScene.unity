@@ -112,7 +112,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 1ebb4b7ce99ebee42b0ebc01fc688b8a, type: 2}
 --- !u!1001 &3796886
 Prefab:
   m_ObjectHideFlags: 0
@@ -1846,6 +1846,7 @@ GameObject:
   - component: {fileID: 534669906}
   - component: {fileID: 534669910}
   - component: {fileID: 534669909}
+  - component: {fileID: 534669908}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: Untagged
@@ -1943,6 +1944,20 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &534669908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 534669902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1af6d7852d1f2e4e94714e7a85c20c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwitchCamera: 0
+  secondCamera: {fileID: 2137978759}
+  pressedKey: 0
 --- !u!95 &534669909
 Animator:
   serializedVersion: 3
@@ -4319,6 +4334,63 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 780611a67e8e941a2b3aa96e5915a793, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1301801029 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1511746606845076, guid: da4ad2310c6a3a44e8c6b74c731ffbc7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1999597781}
+--- !u!195 &1301801032
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1301801029}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.79371655
+  m_Speed: 3.5
+  m_Acceleration: 1
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 2
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.9078274
+  m_BaseOffset: 0.4
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &1301801033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1301801029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29d9bed997c3f1b4fa0c25a89963d8df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 0
+  changeDirection: 1
+  velocity: 3
+  agent: {fileID: 0}
+  vec: {x: 0, y: 0, z: 0}
+--- !u!54 &1301801034
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1301801029}
+  serializedVersion: 2
+  m_Mass: 0.0000001
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1302143272
 Prefab:
   m_ObjectHideFlags: 0
@@ -7018,20 +7090,20 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2137978757
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2137978756}
-  m_LocalRotation: {x: -0, y: 0.99960405, z: -0, w: -0.028137114}
-  m_LocalPosition: {x: 224.73, y: 2.72, z: 266.49}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.024951108, y: 0.99465823, z: -0.058441166, w: -0.08134564}
+  m_LocalPosition: {x: 224.89, y: 2.44, z: 266.28}
+  m_LocalScale: {x: 0.49447, y: 1.1923, z: 1}
   m_Children: []
   m_Father: {fileID: 441192921}
   m_RootOrder: 71
-  m_LocalEulerAnglesHint: {x: 0, y: 183.22499, z: 0}
+  m_LocalEulerAnglesHint: {x: 6.4420004, y: 189.543, z: 3.4120002}
 --- !u!81 &2137978758
 AudioListener:
   m_ObjectHideFlags: 0
@@ -7061,7 +7133,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 59.4
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -7071,7 +7143,7 @@ Camera:
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
-  m_TargetEye: 3
+  m_TargetEye: 0
   m_HDR: 1
   m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
