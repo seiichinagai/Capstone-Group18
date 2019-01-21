@@ -1957,7 +1957,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SwitchCamera: 0
   secondCamera: {fileID: 2137978759}
-  pressedKey: 0
+  pressedKey: 98
 --- !u!95 &534669909
 Animator:
   serializedVersion: 3
@@ -4339,6 +4339,24 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1511746606845076, guid: da4ad2310c6a3a44e8c6b74c731ffbc7,
     type: 2}
   m_PrefabInternal: {fileID: 1999597781}
+--- !u!114 &1301801030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1301801029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e914ad12128add14691c8f6fab9752fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocity: 5
+  destination:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!195 &1301801032
 NavMeshAgent:
   m_ObjectHideFlags: 0
