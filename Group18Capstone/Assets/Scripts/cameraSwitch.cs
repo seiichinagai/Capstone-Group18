@@ -8,7 +8,7 @@ using UnityEngine;
 
     public class cameraSwitch : MonoBehaviour
     {
-
+        public moveRandomly mr;
         float currentTime = 0f;
         float startTime = 1f;
         public bool SwitchCamera = false;
@@ -18,6 +18,7 @@ using UnityEngine;
 
      void Start()
     {
+        mr = new moveRandomly();
         currentTime = startTime;
     }
     void Update()
@@ -28,9 +29,12 @@ using UnityEngine;
         Debug.Log((int) currentTime );
 
         if ((int)currentTime == 27){
+
             Camera.main.enabled = false;
             SwitchCamera = !SwitchCamera;
             secondCamera.gameObject.SetActive(SwitchCamera);
+            mr.getTarget();
+            
             
         }
         }
