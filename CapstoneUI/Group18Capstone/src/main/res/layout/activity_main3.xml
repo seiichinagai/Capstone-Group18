@@ -7,4 +7,33 @@
     android:background="@drawable/mainbackgroundimage"
     tools:context=".Main2Activity">
 
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="SETTINGS"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="152dp"
+        android:layout_height="76dp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volume"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="194dp" />
+
 </android.support.constraint.ConstraintLayout>
