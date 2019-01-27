@@ -11,29 +11,37 @@
         android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginBottom="67dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="SETTINGS"
         android:textAlignment="center"
         android:textSize="30sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="13dp"
-        tools:layout_editor_absoluteY="65dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <SeekBar
         android:id="@+id/seekBar"
         android:layout_width="152dp"
         android:layout_height="76dp"
-        tools:layout_editor_absoluteX="116dp"
-        tools:layout_editor_absoluteY="226dp" />
+        android:layout_marginEnd="116dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="194dp"
         android:text="Volume"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="194dp" />
+        app:layout_constraintStart_toStartOf="@+id/seekBar"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
