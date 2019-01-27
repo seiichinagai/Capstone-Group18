@@ -11,7 +11,7 @@
         android:id="@+id/editText3"
         android:layout_width="352dp"
         android:layout_height="333dp"
-        android:layout_marginBottom="104dp"
+        android:layout_marginTop="24dp"
         android:clickable="false"
         android:cursorVisible="false"
         android:editable="false"
@@ -22,23 +22,21 @@
         android:singleLine="false"
         android:text="The aim is to allow the user a way to escape their pain by creating a harmony between their body and mind. This is done by pairing stimulating visuals with calming sounds. Ideally, the success of this application will lower the risk of children forming a dependence on narcotics. This project’s success will provide children with severe injuries and trauma a way to manage their pain and discomfort by being fully immersed in an interactive, virtual environment geared specifically to their needs."
         android:textAlignment="center"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Header" />
 
     <TextView
         android:id="@+id/Header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="165dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="165dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginTop="32dp"
         android:text="About"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         app:layout_constraintBottom_toTopOf="@+id/editText3"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>

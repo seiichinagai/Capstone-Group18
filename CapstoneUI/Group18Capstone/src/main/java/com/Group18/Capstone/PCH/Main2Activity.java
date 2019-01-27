@@ -14,7 +14,7 @@ public class Main2Activity extends AppCompatActivity {
     }
 
 
-    public void playClicked(View view) {
+    public void iconClicked(View view) {
         startActivity(new Intent(getApplicationContext(), UnityPlayerActivity.class));
     }
 }
