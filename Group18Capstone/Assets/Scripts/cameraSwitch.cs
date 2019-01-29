@@ -30,9 +30,10 @@ using UnityEngine;
 
         if ((int)currentTime == 27){
 
-            Camera.main.enabled = false;
+           // Camera.main.enabled = false;
             SwitchCamera = !SwitchCamera;
-            secondCamera.gameObject.SetActive(SwitchCamera);
+            // secondCamera.gameObject.SetActive(SwitchCamera);
+            Camera.current.gameObject.SetActive(false);
             mr.getTarget();
             
             

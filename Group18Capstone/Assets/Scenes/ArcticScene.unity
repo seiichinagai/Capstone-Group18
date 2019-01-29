@@ -1986,13 +1986,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 534669902}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1af6d7852d1f2e4e94714e7a85c20c5, type: 3}
+  m_Script: {fileID: 11500000, guid: a609911326cb69d409eb92821daeb30a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mr: {fileID: 0}
-  SwitchCamera: 0
-  secondCamera: {fileID: 2137978759}
-  pressedKey: 98
+  player: {fileID: 1268253528}
+  SmoothFactor: 1
+  LookAtPlayer: 0
 --- !u!95 &534669909
 Animator:
   serializedVersion: 3
