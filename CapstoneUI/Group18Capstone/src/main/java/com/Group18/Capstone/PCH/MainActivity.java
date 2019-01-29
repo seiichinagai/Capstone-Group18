@@ -20,4 +20,8 @@ public class MainActivity extends AppCompatActivity {
     public void aboClicked(View view) {
     }
 
+    public void settClicked(View view){
+        startActivity(new Intent(getApplicationContext(),Main3Activity.class));
+    }
+
 }

@@ -22,7 +22,7 @@
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.908" />
+        app:layout_constraintVertical_bias="0.621" />
 
     <Button
         android:id="@+id/abo_B"
@@ -38,5 +38,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.74" />
+        app:layout_constraintVertical_bias="0.888" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="settClicked"
+        android:text="Settings"
+        app:layout_constraintStart_toStartOf="@+id/abo_B"
+        app:layout_constraintTop_toBottomOf="@+id/env_B" />
 </android.support.constraint.ConstraintLayout>

@@ -2,15 +2,15 @@ package com.Group18.Capstone.PCH;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.media.AudioManager;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 
 public class Main3Activity extends Activity
 {
-    /** Called when the activity is first created. */
-
     private SeekBar volumeSeekbar = null;
     private AudioManager audioManager = null;
 
@@ -21,6 +21,10 @@ public class Main3Activity extends Activity
         setVolumeControlStream(AudioManager.STREAM_MUSIC);
         setContentView(R.layout.activity_main3);
         initControls();
+    }
+
+    public void OpenFAQ(View view) {
+        startActivity(new Intent(getApplicationContext(), FAQActivity.class));
     }
 
     private void initControls()
