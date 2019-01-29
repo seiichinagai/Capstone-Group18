@@ -1917,7 +1917,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 5000
-  field of view: 40
+  field of view: 31.6
   orthographic: 0
   orthographic size: 10
   m_Depth: -1
@@ -1991,7 +1991,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1268253528}
   SmoothFactor: 1
-  LookAtPlayer: 0
+  LookAtPlayer: 1
 --- !u!95 &534669909
 Animator:
   serializedVersion: 3
