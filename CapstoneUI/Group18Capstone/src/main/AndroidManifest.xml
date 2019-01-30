@@ -29,6 +29,7 @@
     <meta-data android:name="unity.splash-mode" android:value="0" />
     <meta-data android:name="unity.splash-enable" android:value="False" />
     <activity android:name=".Main2Activity"></activity>
+    <activity android:name=".Main3Activity"></activity>
     <activity android:name=".MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
