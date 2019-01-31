@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void aboClicked(View view) {
+        startActivity(new Intent(getApplicationContext(), AboutActivity.class));
     }
 
 }
