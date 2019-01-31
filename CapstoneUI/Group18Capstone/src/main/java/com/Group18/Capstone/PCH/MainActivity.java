@@ -21,4 +21,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(getApplicationContext(), AboutActivity.class));
     }
 
+    public void settClicked(View view){
+        startActivity(new Intent(getApplicationContext(),Main3Activity.class));
+    }
+
 }
