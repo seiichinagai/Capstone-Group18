@@ -5,11 +5,12 @@ import android.content.Context;
 import android.content.Intent;
 import android.media.AudioManager;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 
-public class Main3Activity extends Activity
+public class Main3Activity extends AppCompatActivity
 {
     private SeekBar volumeSeekbar = null;
     private AudioManager audioManager = null;
@@ -23,7 +24,7 @@ public class Main3Activity extends Activity
         initControls();
     }
 
-    public void OpenFAQ(View view) {
+    public void clickFAQ(View view) {
         startActivity(new Intent(getApplicationContext(), FAQActivity.class));
     }
 
