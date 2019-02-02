@@ -32,6 +32,8 @@
         android:resource="@array/preloaded_fonts" />
     <meta-data android:name="unity.splash-enable" android:value="False" />
     <activity android:name=".Main2Activity"></activity>
+    <activity android:name=".Main3Activity"></activity>
+    <activity android:name=".FAQActivity"></activity>
     <activity android:name=".AboutActivity"></activity>
     <activity android:name=".MainActivity">
       <intent-filter>
