@@ -38,7 +38,7 @@
 		9A1FF00A21F9AB720003913A = {
 			isa = PBXGroup;
 			children = (
-				9A1FF01521F9AB720003913A /* VRPainManagement */,
+				9A1FF01521F9AB720003913A /* MainScreen */,
 				9A1FF01421F9AB720003913A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,7 +51,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9A1FF01521F9AB720003913A /* VRPainManagement */ = {
+		9A1FF01521F9AB720003913A /* MainScreen */ = {
 			isa = PBXGroup;
 			children = (
 				9A1FF01621F9AB720003913A /* AppDelegate.swift */,
@@ -61,7 +61,7 @@
 				9A1FF01F21F9AB730003913A /* LaunchScreen.storyboard */,
 				9A1FF02221F9AB730003913A /* Info.plist */,
 			);
-			path = VRPainManagement;
+			path = MainScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +288,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ser401-group18.author.MainScreen";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ser401-group18.author.VRPainManagement";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,7 +305,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ser401-group18.author.MainScreen";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ser401-group18.author.VRPainManagement";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

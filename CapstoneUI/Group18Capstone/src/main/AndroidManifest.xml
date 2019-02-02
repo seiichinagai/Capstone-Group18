@@ -27,8 +27,14 @@
     <meta-data android:name="unityplayer.SkipPermissionsDialog" android:value="true" />
     <meta-data android:name="unity.build-id" android:value="676238cf-0522-4080-b91e-86f7b504f6b8" />
     <meta-data android:name="unity.splash-mode" android:value="0" />
+    <meta-data
+        android:name="preloaded_fonts"
+        android:resource="@array/preloaded_fonts" />
     <meta-data android:name="unity.splash-enable" android:value="False" />
     <activity android:name=".Main2Activity"></activity>
+    <activity android:name=".Main3Activity"></activity>
+    <activity android:name=".FAQActivity"></activity>
+    <activity android:name=".AboutActivity"></activity>
     <activity android:name=".MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
