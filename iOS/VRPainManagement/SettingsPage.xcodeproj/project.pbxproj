@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9A1FF01321F9AB720003913A /* VRPainManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRPainManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A1FF01321F9AB720003913A /* SettingsPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SettingsPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A1FF01621F9AB720003913A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A1FF01821F9AB720003913A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9A1FF01B21F9AB720003913A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		9A1FF00A21F9AB720003913A = {
 			isa = PBXGroup;
 			children = (
-				9A1FF01521F9AB720003913A /* VRPainManagement */,
+				9A1FF01521F9AB720003913A /* SettingsPage */,
 				9A1FF01421F9AB720003913A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		9A1FF01421F9AB720003913A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A1FF01321F9AB720003913A /* VRPainManagement.app */,
+				9A1FF01321F9AB720003913A /* SettingsPage.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9A1FF01521F9AB720003913A /* VRPainManagement */ = {
+		9A1FF01521F9AB720003913A /* SettingsPage */ = {
 			isa = PBXGroup;
 			children = (
 				9A1FF01621F9AB720003913A /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				9A1FF01F21F9AB730003913A /* LaunchScreen.storyboard */,
 				9A1FF02221F9AB730003913A /* Info.plist */,
 			);
-			path = VRPainManagement;
+			path = SettingsPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9A1FF01221F9AB720003913A /* VRPainManagement */ = {
+		9A1FF01221F9AB720003913A /* SettingsPage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A1FF02521F9AB730003913A /* Build configuration list for PBXNativeTarget "VRPainManagement" */;
+			buildConfigurationList = 9A1FF02521F9AB730003913A /* Build configuration list for PBXNativeTarget "SettingsPage" */;
 			buildPhases = (
 				9A1FF00F21F9AB720003913A /* Sources */,
 				9A1FF01021F9AB720003913A /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = VRPainManagement;
+			name = SettingsPage;
 			productName = VRPainManagement;
-			productReference = 9A1FF01321F9AB720003913A /* VRPainManagement.app */;
+			productReference = 9A1FF01321F9AB720003913A /* SettingsPage.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9A1FF00E21F9AB720003913A /* Build configuration list for PBXProject "VRPainManagement" */;
+			buildConfigurationList = 9A1FF00E21F9AB720003913A /* Build configuration list for PBXProject "SettingsPage" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A1FF01221F9AB720003913A /* VRPainManagement */,
+				9A1FF01221F9AB720003913A /* SettingsPage */,
 			);
 		};
 /* End PBXProject section */
@@ -315,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9A1FF00E21F9AB720003913A /* Build configuration list for PBXProject "VRPainManagement" */ = {
+		9A1FF00E21F9AB720003913A /* Build configuration list for PBXProject "SettingsPage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A1FF02321F9AB730003913A /* Debug */,
@@ -324,7 +324,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A1FF02521F9AB730003913A /* Build configuration list for PBXNativeTarget "VRPainManagement" */ = {
+		9A1FF02521F9AB730003913A /* Build configuration list for PBXNativeTarget "SettingsPage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A1FF02621F9AB730003913A /* Debug */,
