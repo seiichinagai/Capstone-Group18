@@ -32,7 +32,7 @@ public class Main3Activity extends AppCompatActivity
     {
         try
         {
-            volumeSeekbar = (SeekBar)findViewById(R.id.seekBar);
+            volumeSeekbar = (SeekBar)findViewById(R.id.seekBar1);
             audioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
             volumeSeekbar.setMax(audioManager
                     .getStreamMaxVolume(AudioManager.STREAM_MUSIC));
