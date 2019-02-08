@@ -39,8 +39,9 @@ using UnityEngine.AI;
  {
             float newX = gameObject.transform.position.x;
             float newZ = gameObject.transform.position.z;
-            float positionX = newX + Random.Range(newX - 200, newX + 200);
-            float positionZ = newZ + Random.Range(newZ - 200, newZ + 200);
+            float positionX =  Random.Range(newX - 100, newX + 100);
+            float positionZ =  Random.Range(newZ - 100, newZ + 100);
+        
             vec = new Vector3(positionX, gameObject.transform.position.y, positionZ);
             agent.SetDestination(vec);
         
