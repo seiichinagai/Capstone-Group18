@@ -1436,6 +1436,7 @@ Transform:
   - {fileID: 338749574}
   - {fileID: 1453229889}
   - {fileID: 1522471329}
+  - {fileID: 940801630}
   - {fileID: 191936951}
   - {fileID: 1172365712}
   - {fileID: 1156122760}
@@ -1443,7 +1444,6 @@ Transform:
   - {fileID: 485119628}
   - {fileID: 960961005}
   - {fileID: 944106360}
-  - {fileID: 940801630}
   - {fileID: 3796887}
   - {fileID: 1154230432}
   - {fileID: 594829030}
@@ -2666,7 +2666,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ba92830c80d484573b093b49f79f38cf, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fb601afafc691453480f43dc516e577b, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2982,7 +2982,7 @@ Transform:
   m_LocalScale: {x: 1.6105206, y: 1.6105208, z: 1.6105205}
   m_Children: []
   m_Father: {fileID: 441192921}
-  m_RootOrder: 55
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &940801631
 SkinnedMeshRenderer:
