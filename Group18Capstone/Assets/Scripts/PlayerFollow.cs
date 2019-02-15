@@ -17,7 +17,7 @@ public class PlayerFollow : MonoBehaviour {
     float xx;
 
     void Start () {
-        camOff = new Vector3(0f, 40f, 200f);
+        camOff = new Vector3(0f, 15f, 80f);
         currentTime = startTime;
        // camOff = transform.position - player.position;	
 	}
