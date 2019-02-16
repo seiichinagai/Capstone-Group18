@@ -1437,6 +1437,7 @@ Transform:
   - {fileID: 338749574}
   - {fileID: 1453229889}
   - {fileID: 1522471329}
+  - {fileID: 940801630}
   - {fileID: 191936951}
   - {fileID: 1172365712}
   - {fileID: 1156122760}
@@ -2682,7 +2683,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ad35fa36d57ca4bd48b5d5853fc8c6df, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fb601afafc691453480f43dc516e577b, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -10739,6 +10740,7 @@ NavMeshAgent:
   m_BaseOffset: 1.4539137
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+
 --- !u!1 &1805512743
 GameObject:
   m_ObjectHideFlags: 0
