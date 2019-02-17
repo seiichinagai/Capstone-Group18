@@ -29,16 +29,17 @@ public class PlayerFollow : MonoBehaviour {
      
         
         currentTime += 1 * Time.deltaTime;
-        Debug.Log("----------------------------------------"+(int) currentTime);
+        
         if ((int)currentTime == 28)
         {
-            Camera.main.transform.position = new Vector3(210f, 20f, 80f); ;
+            Camera.main.transform.position = new Vector3(210f, 20f, 80f); 
             //Camera.current.transform.rotation = Quaternion.Euler(30, 30, 0);
         }
        
 
-        if ((int)currentTime >= _TIME  && !((int)currentTime > _TIME2))
-        {
+       // if ((int)currentTime >= _TIME  && !((int)currentTime > _TIME2))
+        if ((int)currentTime >= _TIME  )
+            {
             Vector3 newPos = player.position + camOff;
             transform.position = Vector3.Slerp(transform.position, newPos, SmoothFactor);
            
@@ -46,7 +47,7 @@ public class PlayerFollow : MonoBehaviour {
             transform.LookAt(player);
         }
 
-
+        /*
         if ((int)currentTime > _TIME2)
         {
             Vector3 newPos = player2.position + camOff;
@@ -58,6 +59,7 @@ public class PlayerFollow : MonoBehaviour {
             if ((int)currentTime == 67) 
                 currentTime = 29;
         }
+        */
 
     }
            
