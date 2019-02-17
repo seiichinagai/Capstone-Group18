@@ -5,18 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFD49F"
-    tools:context=".MainActivity">
+    tools:context=".HomeActivity">
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="125dp"
         android:layout_height="74dp"
-        android:layout_marginTop="156dp"
-        android:layout_marginEnd="110dp"
-        android:text="FAQ"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="220dp"
         android:fontFamily="@font/raleway"
+        android:text="FAQ"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
