@@ -12,24 +12,21 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="55dp"
-        android:layout_marginTop="154dp"
+        android:layout_marginTop="75dp"
         android:fontFamily="@font/baloo"
         android:text="Flite"
         android:textColor="#FFFFFF"
         android:textSize="64sp"
-        app:layout_constraintBottom_toTopOf="@+id/env_B"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/env_B"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="13dp"
-        android:layout_marginEnd="70dp"
-        android:layout_marginStart="70dp"
+        android:layout_width="242dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/button"
         android:fontFamily="@font/raleway"
         android:onClick="envClicked"
@@ -40,16 +37,13 @@
         android:textStyle="normal"
         app:layout_constraintBottom_toTopOf="@+id/Settings"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/Settings"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="15dp"
-        android:layout_marginEnd="71dp"
-        android:layout_marginStart="71dp"
+        android:layout_width="242dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/button"
         android:fontFamily="@font/raleway"
         android:onClick="settClicked"
@@ -59,23 +53,21 @@
         android:textStyle="normal"
         app:layout_constraintBottom_toTopOf="@+id/abo_B"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/env_B" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/abo_B"
-        android:layout_width="68dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="47dp"
-        android:background="#C9EDFF"
+        android:layout_width="242dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/button"
         android:fontFamily="@font/raleway"
         android:onClick="aboClicked"
         android:text="About"
         android:textColor="#FFFFFF"
-        android:textSize="16sp"
+        android:textSize="20sp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Settings" />
+        app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>
