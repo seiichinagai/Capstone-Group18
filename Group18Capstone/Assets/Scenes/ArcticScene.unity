@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3500668, g: 0.44915104, b: 0.5880307, a: 1}
+  m_IndirectSpecularColor: {r: 0.3500884, g: 0.44928193, b: 0.5880745, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1365,7 +1365,7 @@ PlayableDirector:
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: 94f4ce99a4e9748429509029d9e4735e, type: 2}
   m_InitialState: 1
-  m_WrapMode: 2
+  m_WrapMode: 1
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
@@ -1399,7 +1399,6 @@ Transform:
   - {fileID: 170076735}
   - {fileID: 45495127}
   - {fileID: 1632540130}
-  - {fileID: 940801630}
   - {fileID: 1660007443}
   - {fileID: 1699946519}
   - {fileID: 1310846336}
@@ -1431,13 +1430,13 @@ Transform:
   - {fileID: 33907962}
   - {fileID: 1658986945}
   - {fileID: 408572349}
+  - {fileID: 940801630}
   - {fileID: 445255657}
   - {fileID: 1412859452}
   - {fileID: 444812989}
   - {fileID: 338749574}
   - {fileID: 1453229889}
   - {fileID: 1522471329}
-  - {fileID: 940801630}
   - {fileID: 191936951}
   - {fileID: 1172365712}
   - {fileID: 1156122760}
@@ -2999,7 +2998,7 @@ Transform:
   m_LocalScale: {x: 1.6105206, y: 1.6105208, z: 1.6105205}
   m_Children: []
   m_Father: {fileID: 441192921}
-  m_RootOrder: 11
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &940801631
 SkinnedMeshRenderer:
@@ -10740,7 +10739,6 @@ NavMeshAgent:
   m_BaseOffset: 1.4539137
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
-
 --- !u!1 &1805512743
 GameObject:
   m_ObjectHideFlags: 0
