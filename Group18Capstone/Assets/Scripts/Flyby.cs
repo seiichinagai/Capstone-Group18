@@ -30,7 +30,6 @@ public class Flyby : MonoBehaviour {
         transform.rotation = Quaternion.Euler(25, 0, 0);
     }
 
-
     void Update()
     {
 
@@ -81,6 +80,7 @@ public class Flyby : MonoBehaviour {
         {
             transform.Translate(p);
         }
+        Application.Quit();
 
     }
 
