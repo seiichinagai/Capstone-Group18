@@ -3121,6 +3121,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: -10
       objectReference: {fileID: 0}
+    - target: {fileID: 9552978, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 02020cfb5cfb98d46916ea4b404c7f88, type: 2}
+    - target: {fileID: 9552978, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6, type: 3}
 --- !u!1001 &707838066
@@ -4559,7 +4567,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9552978, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9552978, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 2ffd64cc7aea41943bd209b659158e8b, type: 2}
+    - target: {fileID: 9552978, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6, type: 3}
@@ -4811,7 +4827,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9552978, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9552978, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 946d535f8c44b10428eac60b6b71faee, type: 2}
+    - target: {fileID: 9552978, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6, type: 3}
@@ -5085,7 +5109,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9552978, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9552978, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ca27a2c3af5443341bcc45f47c787215, type: 2}
+    - target: {fileID: 9552978, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6, type: 3}
@@ -13152,6 +13184,46 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da4ad2310c6a3a44e8c6b74c731ffbc7, type: 3}
+--- !u!1 &1929388297 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1511746606845076, guid: da4ad2310c6a3a44e8c6b74c731ffbc7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1491934598}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1929388298
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929388297}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 76c76f38cbc27ad4c92052e73bb38eb6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!111 &1929388299
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929388297}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 38ae519dca306404f838682cc75ff11a, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 1
+  m_CullingType: 0
 --- !u!1 &1943952540 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 139118, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6,
@@ -13170,9 +13242,10 @@ Animation:
   m_Animation: {fileID: 7400000, guid: 5843e24a31d03494394f5bda764eb468, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 5843e24a31d03494394f5bda764eb468, type: 2}
+  - {fileID: 7400000, guid: 5843e24a31d03494394f5bda764eb468, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
+  m_AnimatePhysics: 1
   m_CullingType: 0
 --- !u!1001 &1953734395
 PrefabInstance:
@@ -13243,7 +13316,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9552978, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9552978, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ed311d38a045ae84a960028d5d7fb9dd, type: 2}
+    - target: {fileID: 9552978, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6, type: 3}
@@ -14067,7 +14148,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9552978, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9552978, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 5ca7bee88ea01694ba51ea51a627c035, type: 2}
+    - target: {fileID: 9552978, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c2a05e7dc8d09e48839c9d14c26c8d6, type: 3}
