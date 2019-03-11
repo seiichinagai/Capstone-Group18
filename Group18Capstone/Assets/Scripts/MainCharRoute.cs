@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿// https://docs.unity3d.com/560/Documentation/Manual/nav-AgentPatrol.html
+// code source
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Collections;
