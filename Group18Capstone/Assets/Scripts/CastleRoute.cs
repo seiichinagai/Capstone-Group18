@@ -7,7 +7,7 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.AI;
 
-public class MainCharRoute : MonoBehaviour
+public class CastleRoute : MonoBehaviour
 {
 
     public Transform[] points;
