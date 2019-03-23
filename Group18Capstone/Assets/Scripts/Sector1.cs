@@ -2,6 +2,10 @@
 using System.Collections;
 using System.Collections.Generic;
 
+// author: kinan gh
+// published: Nov 20, 2016
+// source: https://www.youtube.com/watch?v=fKWTpi70a_E
+
 public class Sector1 : MonoBehaviour
 {
     public Transform[] target;
@@ -9,7 +13,12 @@ public class Sector1 : MonoBehaviour
 
     private int current;
 
-    void update()
+    private void Start()
+    {
+
+    }
+
+    void Update()
     {
         if (transform.position != target[current].position)
         {
