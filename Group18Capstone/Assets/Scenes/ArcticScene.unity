@@ -17614,6 +17614,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da4ad2310c6a3a44e8c6b74c731ffbc7, type: 3}
+--- !u!1 &369801026 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1511746606845076, guid: da4ad2310c6a3a44e8c6b74c731ffbc7,
+    type: 3}
+  m_PrefabInstance: {fileID: 369801025}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &369801027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369801026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29d9bed997c3f1b4fa0c25a89963d8df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 0
+  changeDirection: 0
+  velocity: 0
+  agent: {fileID: 0}
+  vec: {x: 0, y: 0, z: 0}
 --- !u!4 &370075936 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: ae7edbc7dcf5dab4793b08f834a5e08e,
@@ -21393,7 +21416,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b5a0ce9479629914193daa2d31144b0c, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b5a0ce9479629914193daa2d31144b0c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -24668,6 +24691,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da4ad2310c6a3a44e8c6b74c731ffbc7, type: 3}
+--- !u!1 &521668288 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1511746606845076, guid: da4ad2310c6a3a44e8c6b74c731ffbc7,
+    type: 3}
+  m_PrefabInstance: {fileID: 521668287}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &521668289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521668288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29d9bed997c3f1b4fa0c25a89963d8df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 0
+  changeDirection: 0
+  velocity: 0
+  agent: {fileID: 0}
+  vec: {x: 0, y: 0, z: 0}
 --- !u!4 &522373014 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: ae7edbc7dcf5dab4793b08f834a5e08e,
@@ -30738,7 +30784,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b5a0ce9479629914193daa2d31144b0c, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b5a0ce9479629914193daa2d31144b0c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -96421,7 +96467,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e6117170df99d464d9f8813bf81a558d, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e6117170df99d464d9f8813bf81a558d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
