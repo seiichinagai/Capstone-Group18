@@ -26329,7 +26329,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timer: 0
   changeDirection: 5
-  velocity: 2
+  velocity: 0
   agent: {fileID: 0}
   vec: {x: 0, y: 0, z: 0}
 --- !u!50 &548317083
@@ -50329,7 +50329,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timer: 0
   changeDirection: 5
-  velocity: 2
+  velocity: 0
   agent: {fileID: 0}
   vec: {x: 0, y: 0, z: 0}
 --- !u!23 &1080496607
@@ -77494,7 +77494,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timer: 0
   changeDirection: 5
-  velocity: 2
+  velocity: 0
   agent: {fileID: 0}
   vec: {x: 0, y: 0, z: 0}
 --- !u!195 &1748027569
@@ -84669,7 +84669,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timer: 0
   changeDirection: 5
-  velocity: 2
+  velocity: 0
   agent: {fileID: 0}
   vec: {x: 0, y: 0, z: 0}
 --- !u!54 &1803120859
