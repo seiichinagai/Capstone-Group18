@@ -4,6 +4,34 @@ using UnityEngine;
 
 public class PlayerFollow : MonoBehaviour {
 
+    public Transform lookAt;
+    public Transform camTransform;
+
+    private Camera cam;
+    private float distance = 10.0f;
+    private float currX = 0.0f;
+    private float currY = 0.0f;
+    private float currentTime = 0f;
+
+    private void Start()
+    {
+        camTransform = transform;
+        cam = Camera.main;
+    }
+
+    private void LateUpdate()
+    {
+        currentTime += 1 * Time.deltaTime;
+        Vector3 dir = new Vector3(1, 5, distance);
+        Quaternion rotation = Quaternion.Euler(15, -10, -15);
+
+        if ((int) currentTime >= 25)
+        {
+            camTransform.position = lookAt.position + rotation * dir;
+            //camTransform.LookAt(lookAt.position);
+        }
+    }
+    /*
     private Vector3 bedroomView;
     Camera mainCam;
     public Transform player;
@@ -59,10 +87,9 @@ public class PlayerFollow : MonoBehaviour {
             if ((int)currentTime == 67) 
                 currentTime = 29;
         }
-        */
+
 
     }
-           
-        
-       
+    */
+
 }
