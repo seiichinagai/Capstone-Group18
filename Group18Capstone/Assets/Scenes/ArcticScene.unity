@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3500884, g: 0.44928193, b: 0.5880745, a: 1}
+  m_IndirectSpecularColor: {r: 0.3500668, g: 0.44915104, b: 0.5880307, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -25458,11 +25458,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a609911326cb69d409eb92821daeb30a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1268253528}
-  player2: {fileID: 489667202}
-  SmoothFactor: 1
-  LookAtPlayer: 0
-  zoom: 1
+  lookAt: {fileID: 1748027571}
+  camTransform: {fileID: 0}
 --- !u!95 &534669909
 Animator:
   serializedVersion: 3
@@ -59637,12 +59634,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1521086055}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1268253528 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4494775606006702, guid: da4ad2310c6a3a44e8c6b74c731ffbc7,
-    type: 3}
-  m_PrefabInstance: {fileID: 1999597781}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1268289945 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: ae7edbc7dcf5dab4793b08f834a5e08e,
@@ -77715,6 +77706,12 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!4 &1748027571 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4494775606006702, guid: da4ad2310c6a3a44e8c6b74c731ffbc7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1798223764}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1748949225
 PrefabInstance:
   m_ObjectHideFlags: 0
