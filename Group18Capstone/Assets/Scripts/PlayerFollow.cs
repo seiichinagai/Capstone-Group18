@@ -24,7 +24,7 @@ public class PlayerFollow : MonoBehaviour {
 	}
 	
 	
-	void LateUpdate () {
+	void Update () {
 
      
         
