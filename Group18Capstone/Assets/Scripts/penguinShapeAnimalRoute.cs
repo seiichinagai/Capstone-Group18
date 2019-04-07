@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class penguinShape : MonoBehaviour
+public class penguinShapeAnimalRoute : MonoBehaviour
 {
     public Color whiteColor = Color.white;
     public List<Transform> routeTargets = new List<Transform>();
