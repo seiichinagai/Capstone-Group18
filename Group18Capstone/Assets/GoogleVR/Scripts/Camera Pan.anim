@@ -4,7 +4,8 @@
 AnimationClip:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Camera Pan
   serializedVersion: 6
   m_Legacy: 0
@@ -171,15 +172,15 @@ AnimationClip:
       - serializedVersion: 3
         time: 21
         value: {x: 274.41, y: 20.84, z: 289.47}
-        inSlope: {x: 0, y: -2.8874002, z: -15.178329}
-        outSlope: {x: 0, y: -2.8874002, z: -15.178329}
+        inSlope: {x: 0, y: -2.8874004, z: -14.108333}
+        outSlope: {x: 0, y: -2.8874004, z: -14.108333}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 24
-        value: {x: 223.88, y: 0.88, z: 258.23}
+        value: {x: 223.88, y: 2.39, z: 264.65}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -455,15 +456,15 @@ AnimationClip:
       - serializedVersion: 3
         time: 21
         value: 20.84
-        inSlope: -2.8874002
-        outSlope: -2.8874002
+        inSlope: -2.8874004
+        outSlope: -2.8874004
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 24
-        value: 0.88
+        value: 2.39
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -546,15 +547,15 @@ AnimationClip:
       - serializedVersion: 3
         time: 21
         value: 289.47
-        inSlope: -15.178329
-        outSlope: -15.178329
+        inSlope: -14.108333
+        outSlope: -14.108333
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 24
-        value: 258.23
+        value: 264.65
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1039,5 +1040,4 @@ AnimationClip:
     script: {fileID: 0}
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_GenerateMotionCurves: 0
   m_Events: []
