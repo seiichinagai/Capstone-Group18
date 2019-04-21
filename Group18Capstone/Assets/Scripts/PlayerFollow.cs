@@ -12,7 +12,6 @@ public class PlayerFollow : MonoBehaviour {
     private float currX = 0.0f;
     private float currY = 0.0f;
     private float currentTime = 0f;
-    private bool collision = false;
     private Vector3 velocity = Vector3.zero;
 
     private void Start()
@@ -24,29 +23,16 @@ public class PlayerFollow : MonoBehaviour {
     private void LateUpdate()
     {
         currentTime += 1 * Time.deltaTime;
-        Vector3 dir = new Vector3(1, 5, distance);
+        Vector3 dir = new Vector3(1, 10, distance);
         Quaternion rotation = Quaternion.Euler(15, -10, -15);
 
         if ((int) currentTime >= 25)
         {
             camTransform.position = lookAt.position + rotation * dir;
-
-            if (collision)
-            {
-                camTransform.position = Vector3.SmoothDamp(camTransform.position, lookAt.position , ref velocity, 0.3f);
-            }
         }
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        collision = true;
-    }
 
-    private void OnTriggerExit(Collider other)
-    {
-        collision = false;
-    }
     /*
     private Vector3 bedroomView;
     Camera mainCam;
