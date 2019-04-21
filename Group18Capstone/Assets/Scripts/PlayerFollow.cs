@@ -8,7 +8,7 @@ public class PlayerFollow : MonoBehaviour {
     public Transform camTransform;
 
     private Camera cam;
-    private float distance = 10.0f;
+    private float distance = 8.0f;
     private float currX = 0.0f;
     private float currY = 0.0f;
     private float currentTime = 0f;
@@ -23,8 +23,8 @@ public class PlayerFollow : MonoBehaviour {
     private void LateUpdate()
     {
         currentTime += 1 * Time.deltaTime;
-        Vector3 dir = new Vector3(1, 10, distance);
-        Quaternion rotation = Quaternion.Euler(15, -10, -15);
+        Vector3 dir = new Vector3(1, 6, distance);
+        Quaternion rotation = Quaternion.Euler(5, 45, 45);
 
         if ((int) currentTime >= 25)
         {
