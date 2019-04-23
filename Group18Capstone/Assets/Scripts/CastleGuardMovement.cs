@@ -27,6 +27,9 @@ public class CastleGuardMovement : MonoBehaviour
 
     void TravelToNext()
     {
+        if (!agent.isOnNavMesh)
+            return;
+
         if (points.Length == 0)
         {
             return;
@@ -40,6 +43,8 @@ public class CastleGuardMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!agent.isOnNavMesh)
+            return;
         // make character wait to move until camera has attached
         wait += Time.deltaTime;
         if(wait >= 25)
