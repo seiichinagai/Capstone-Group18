@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: unitygvr:@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/unitygvr.aar/1d5fe75494480f609451722b0e340a99/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/unitygvr.aar/1d5fe75494480f609451722b0e340a99/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/unitygvr.aar/bb98ca7e15ca7a265d88bcdd3d726aa0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/unitygvr.aar/bb98ca7e15ca7a265d88bcdd3d726aa0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

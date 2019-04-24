@@ -13,9 +13,11 @@ public class CastleGuardMovement : MonoBehaviour
     public Transform[] points;
     private int destPoint = 0;
     private NavMeshAgent agent;
+    private float wait = 0.0f;
     // Start is called before the first frame update
     void Start()
     {
+
         agent = GetComponent<NavMeshAgent>();
         agent.autoBraking = true;
 
@@ -25,6 +27,9 @@ public class CastleGuardMovement : MonoBehaviour
 
     void TravelToNext()
     {
+        if (!agent.isOnNavMesh)
+            return;
+
         if (points.Length == 0)
         {
             return;
@@ -38,7 +43,16 @@ public class CastleGuardMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!agent.pathPending && agent.remainingDistance < 0.5f)
-            TravelToNext();
+        if (!agent.isOnNavMesh)
+            return;
+        // make character wait to move until camera has attached
+        wait += Time.deltaTime;
+        if(wait >= 25)
+        {
+            if (!agent.pathPending && agent.remainingDistance < 0.5f)
+                TravelToNext();
+        }
+
     }
+
 }
