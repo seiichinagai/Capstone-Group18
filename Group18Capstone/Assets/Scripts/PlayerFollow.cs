@@ -4,23 +4,94 @@ using UnityEngine;
 
 public class PlayerFollow : MonoBehaviour {
 
+    public Transform lookAt;
+    public Transform camTransform;
+
+    private Camera cam;
+    private float distance = 8.0f;
+    private float currX = 0.0f;
+    private float currY = 0.0f;
+    private float currentTime = 0f;
+    private Vector3 velocity = Vector3.zero;
+
+    private void Start()
+    {
+        camTransform = transform;
+        cam = Camera.main;
+    }
+
+    private void LateUpdate()
+    {
+        currentTime += 1 * Time.deltaTime;
+        Vector3 dir = new Vector3(1, 6, distance);
+        Quaternion rotation = Quaternion.Euler(5, 45, 45);
+
+        if ((int) currentTime >= 25)
+        {
+            camTransform.position = lookAt.position + rotation * dir;
+        }
+    }
+
+
+    /*
+    private Vector3 bedroomView;
+    Camera mainCam;
     public Transform player;
+    public Transform player2;
     private Vector3 camOff;
     [Range(0.01f, 1.0f)]
     public float SmoothFactor = 0.5f;
     public bool LookAtPlayer = false;
-
-	
-	void Start () {
-        camOff = transform.position - player.position;	
+    public bool zoom = false;
+    float currentTime = 0f;
+    float startTime = 1f;
+    public readonly float _TIME = 27;
+    public readonly float _TIME2 = 47;
+    void Start () {
+        camOff = new Vector3(0f, 5f, 40f);
+        currentTime = startTime;
+       // camOff = transform.position - player.position;	
 	}
 	
 	
-	void Update () {
-        Vector3 newPos = player.position + camOff;
-        transform.position = Vector3.Slerp(transform.position, newPos, SmoothFactor);
+	void LateUpdate () {
 
-        if (LookAtPlayer)
+     
+        
+        currentTime += 1 * Time.deltaTime;
+        
+        if ((int)currentTime == 28)
+        {
+            Camera.main.transform.position = new Vector3(210f, 20f, 80f); 
+            //Camera.current.transform.rotation = Quaternion.Euler(30, 30, 0);
+        }
+       
+
+       // if ((int)currentTime >= _TIME  && !((int)currentTime > _TIME2))
+        if ((int)currentTime >= _TIME  )
+            {
+            Vector3 newPos = player.position + camOff;
+            transform.position = Vector3.Slerp(transform.position, newPos, SmoothFactor);
+           
+            if (LookAtPlayer)
             transform.LookAt(player);
+        }
+
+        /*
+        if ((int)currentTime > _TIME2)
+        {
+            Vector3 newPos = player2.position + camOff;
+            transform.position = Vector3.Slerp(transform.position, newPos, SmoothFactor);
+
+            if (LookAtPlayer)
+                transform.LookAt(player2);
+
+            if ((int)currentTime == 67) 
+                currentTime = 29;
+        }
+
+
     }
+    */
+
 }

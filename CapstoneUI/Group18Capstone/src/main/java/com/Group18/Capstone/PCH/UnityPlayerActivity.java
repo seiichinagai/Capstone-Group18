@@ -39,7 +39,7 @@ public class UnityPlayerActivity extends Activity
     // Quit Unity
     @Override protected void onDestroy ()
     {
-        mUnityPlayer.quit();
+        mUnityPlayer.destroy();
         super.onDestroy();
     }
 

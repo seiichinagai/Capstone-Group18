@@ -134,8 +134,12 @@ namespace GoogleVR.Demos {
       // Scan all devices' buttons for button down, and switch the singleton pointer
       // to the controller the user last clicked.
       int newPointer = activeControllerPointer;
+      if (Input.GetKey(KeyCode.Escape))
+            {
+                Application.Quit();
+            }
 
-      if (controllerPointers.Length > 1 && controllerPointers[1] != null) {
+            if (controllerPointers.Length > 1 && controllerPointers[1] != null) {
         // Buttons that can trigger pointer switching.
         GvrControllerButton buttonMask = GvrControllerButton.App | GvrControllerButton.TouchPadButton;
         GvrTrackedController trackedController1 = controllerPointers[1].GetComponent<GvrTrackedController>();
